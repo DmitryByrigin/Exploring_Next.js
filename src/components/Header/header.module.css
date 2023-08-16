@@ -1,0 +1,10 @@
+.menu_item_styles {
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  padding: 5px;
+  text-decoration: underline;
+}
+
+.menu_item_styles:hover {
+  background-color: white;
+  color: black;
+}
