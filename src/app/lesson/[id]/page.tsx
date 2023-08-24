@@ -1,7 +1,8 @@
 // 'use client' - для использования жизненого цикла
 // компоненнта, хуков и других приемуществ React
-
+import { usePosts } from '@/../store';
 import { Metadata } from 'next';
+import { useEffect } from 'react';
 
 type Props = {
   params: {
